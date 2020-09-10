@@ -8,11 +8,17 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 520px;
-	min-height: 00px;
-	background: #161a2b;
+	width: 40%;
+	min-height: 300px;
+	background: #1d99ff;
 	text-align: center;
 	margin: 120px auto;
 	border-radius: 10px;
 	padding-bottom: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+	.todo-app {
+		width: 90%;
+	}
 }
